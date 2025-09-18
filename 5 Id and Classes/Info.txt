@@ -1,0 +1,59 @@
+ID (id)
+
+Unique hoti hai → ek page par sirf ek element ko di jati hai.
+
+Har id ka naam unique hona chahiye (repeat nahi ho sakta).
+
+Mostly use hoti hai:
+
+Jab ek specific element ko target karna ho.
+
+JavaScript aur CSS me ek hi element ko style ya control karne k liye.
+
+👉 Example:
+
+<p id="intro">This is my introduction paragraph.</p>
+
+#intro {
+  color: blue;
+}
+
+
+Yahan #intro CSS me id="intro" wale element ko target kar raha hai.
+
+🔹 Class (class)
+
+Reusable hoti hai → ek page par kai elements ko same class di ja sakti hai.
+
+Ek element ke andar ek se zyada classes bhi ho sakti hain.
+
+Mostly use hoti hai:
+
+Jab multiple elements ko same style deni ho.
+
+Group banane ke liye (for styling / JavaScript).
+
+👉 Example:
+
+<p class="highlight">This is highlighted text.</p>
+<p class="highlight">This is also highlighted text.</p>
+
+.highlight {
+  background-color: yellow;
+}
+
+
+Yahan dono <p> ek hi class share kar rahe hain → dono pe same style apply hogi.
+
+📌 ID vs Class – Quick Difference
+Feature	ID	Class
+Uniqueness	Unique (1 per page)	Reusable (many elements)
+CSS Selector	#idName	.className
+Use case	Specific ek element target karna	Multiple elements group karna
+Example	<div id="header"></div>	<div class="menu"></div>
+
+✅ Short Trick yaad rakhne ke liye:
+
+ID = Identity card → har insaan ka alag hota hai (unique)
+
+Class = Classroom → ek hi class me bohot sare students hote hain (repeat allowed)
